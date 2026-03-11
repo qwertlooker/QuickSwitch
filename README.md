@@ -1,4 +1,16 @@
 # QuickSwitch
+
+# 开机自动启动
+将转换好的 EXE 文件设置为开机自动启动，最简单且通用的方法是利用 Windows 的 “启动”文件夹。
+核心方法：使用“启动”文件夹 (Startup Folder)
+这是最推荐的方法，不需要修改注册表，操作安全且直观：
+打开运行窗口：按下键盘上的 Win + R 键。
+输入指令：在弹出的输入框中输入 shell:startup，然后点击确定。
+放入快捷方式：
+此时会弹出一个文件夹窗口，这便是当前用户的启动文件夹。
+不要直接把 EXE 原文件拖进去。建议先找到你的 .exe 文件，右键点击它选择“创建快捷方式”。
+将这个快捷方式复制并粘贴到刚才打开的“启动”文件夹中。
+
 **Use opened file manager folders in File dialogs.**
 
 QuickSwitch is an alternative to [Listary's QuickSwitch](https://www.youtube.com/watch?v=9T9-OtRVeUw) as that is abandoned.
